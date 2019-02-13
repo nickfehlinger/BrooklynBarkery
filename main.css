@@ -121,6 +121,7 @@ button{
     }
     input{
         font-size: 2vw;
+        width: 40vw;
     }
     button{
         width: 25vw;
