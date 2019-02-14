@@ -45,6 +45,7 @@ h3{
 }
 .description{
     text-align: left;
+    font-size: 5vw;
 }
 h4{
     color: white;
@@ -53,6 +54,7 @@ h4{
 }
 #cta{
     text-align: center;
+    font-size: 5vw;
 }
 form{
     margin: 0 auto;
@@ -126,6 +128,12 @@ button{
     }
     h4{
         font-size: 4.5vw;
+    }
+    .description{
+        font-size: 3vw;
+    }
+    .cta p{
+        font-size: 3vw;
     }
     .footer{
         font-size: 3vw;
