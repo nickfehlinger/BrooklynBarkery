@@ -79,6 +79,29 @@ input{
 input::placeholder{
     color: rgb(179, 179, 179);
 }
+#required{
+    background-color: burlywood;
+    border: .1em solid red;
+    font-size: 2vw;
+    color: red;
+    line-height: 1em;
+    padding: .5em;
+    border-radius: .25em;
+    display: none;
+}
+#required.empty{
+    display: inline-block;
+}
+#thankYou{
+    display: none;
+    margin: 5vw;
+}
+#thankYou .check{
+    color: green;
+}
+#thankYou.success{
+    display: inline-block;
+}
 button{
     width: 50vw;
     height: 10vw;
