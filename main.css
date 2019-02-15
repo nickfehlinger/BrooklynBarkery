@@ -40,7 +40,8 @@ h3{
 }
 #bag{
     float: right;
-    width: 30%;
+    width: 40%;
+    margin: 0 0 1.5vw 1.5vw;
 }
 #disclaimer{
     font-size: 1vw;
@@ -145,6 +146,9 @@ button{
     }
     #description{
         font-size: 3vw;
+    }
+    #bag{
+        width: 25%;
     }
     .cta p{
         font-size: 3vw;
