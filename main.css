@@ -149,6 +149,7 @@ button{
     }
     #bag{
         width: 25%;
+        margin: 0 0 1.5vw 2.5vw;
     }
     .cta p{
         font-size: 3vw;
