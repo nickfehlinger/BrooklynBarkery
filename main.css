@@ -36,10 +36,11 @@ h3{
 .main{
     color: white;
     font-family: 'Encode Sans Condensed', sans-serif;
+    margin-top: 3vw;
 }
 #bag{
     float: right;
-    width: 25%;
+    width: 30%;
 }
 #disclaimer{
     font-size: 1vw;
@@ -74,7 +75,7 @@ input{
     width: 90%;
     background-color: rgba(255,255,255,0);
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #3f0017;
     color: #3f0017;
     font-size: 4vw;
     font-family: 'Encode Sans Condensed', sans-serif;
@@ -115,6 +116,8 @@ button{
     font-size: 5vw;
     margin-top: 2vw;
     padding: 0;
+    vertical-align: middle;
+    line-height: 1.1em;
 }
 .footer{
     background-color: black;
@@ -149,6 +152,12 @@ button{
     }
     input{
         font-size: 2.5vw;
+    }
+    button{
+        width: 50%;
+        height: 6vw;
+        font-size: 3vw;
+        border: .7vw solid black;
     }
     .footer{
         font-size: 3vw;
