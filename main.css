@@ -1,5 +1,10 @@
 body{
     background-color: #3f0017;
+    text-align: center;
+}
+.row{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .header{
     height: 95vh;
@@ -8,55 +13,39 @@ body{
     background-position-x: 80%;
 }
 #logo{
-    display: inline-block;
-    height: 40vw;
-    width: 40vw;
+    width: 100%;
 }
 .headerText{
-    display: inline-block;
-    bottom: 7vh;
-    position: absolute;
-    left: 7vw;
     text-align: center;
 }
 h1, h3{
     font-family: Staatliches, sans-serif;
 }
+h1{
+    font-size: 25vw;
+}
 h2{
     font-family: 'Permanent Marker', cursive;
     color: white;
-    font-size: 7vw;
-}
-h1{
-    font-size: 20vw;
+    font-size: 12vw;
 }
 h3{
     color: white;
-    font-size: 7vw
+    font-size: 7vw;
 }
 .main{
-    margin: 5vw auto;
-    width: 90vw;
     color: white;
     font-family: 'Encode Sans Condensed', sans-serif;
-    font-size: 5vw;
-    line-height: 1.2em;
-}
-.description{
-    width: 50vw;
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 3vw;
 }
 #bag{
-    width: 35vw;
-    height: auto;
-    display: inline-block;
-    margin-top: 3vw;
+    width: 100%;
 }
 #disclaimer{
     font-size: 1vw;
-    text-align: right;
+}
+.description{
+    text-align: left;
+    font-size: 5vw;
 }
 h4{
     color: white;
@@ -65,7 +54,10 @@ h4{
 }
 #cta{
     text-align: center;
-    margin-top: 5vw;
+    font-size: 5vw;
+}
+form{
+    margin: 0 auto;
 }
 input{
     width: 80vw;
@@ -94,7 +86,6 @@ input::placeholder{
 }
 #thankYou{
     display: none;
-    margin: 5vw;
 }
 #thankYou .check{
     color: green;
@@ -125,48 +116,24 @@ button{
 .footer p{
     padding-top: 5vw;
 }
-@media (min-width: 600px){
+@media (min-width: 540px){
     h1{
-        line-height: .8em
+        font-size: 10vw;
     }
-}
-@media (min-width: 900px){
-    .headerText{
-        text-align: right;
+    h2{
+        font-size: 6vw;
     }
-    h1{
-        font-size: 15vw;
+    h3{
+        font-size: 3vw;
     }
-    .main{
-        font-size: 4vw;
-    }
-    input{
-        font-size: 3.5vw;
-    }
-    button{
-        height: 8vw;
-        font-size: 4vw;
-    }
-    .footer{
-        font-size: 4vw;
-    }
-}
-@media (min-width: 1100px){
-    .main{
-        font-size: 2.5vw;
+    h4{
+        font-size: 4.5vw;
     }
     .description{
-        margin-top: 5vw;
+        font-size: 3vw;
     }
-    input{
-        font-size: 2vw;
-        width: 40vw;
-    }
-    button{
-        width: 25vw;
-        height: 5vw;
-        font-size: 2.5vw;
-        border: .5vw solid black;
+    .cta p{
+        font-size: 3vw;
     }
     .footer{
         font-size: 3vw;
