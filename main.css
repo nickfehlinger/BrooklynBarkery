@@ -38,38 +38,49 @@ h3{
     font-family: 'Encode Sans Condensed', sans-serif;
 }
 #bag{
-    width: 100%;
+    float: right;
+    width: 25%;
 }
 #disclaimer{
     font-size: 1vw;
 }
-.description{
+#description{
     text-align: left;
     font-size: 5vw;
+    line-height: 1.2em;
 }
 h4{
     color: white;
     font-family: Staatliches, sans-serif;
     font-size: 6vw;
 }
-#cta{
+.cta{
     text-align: center;
     font-size: 5vw;
+    line-height: 1.2em;
+    background-color: rgba(255,255,255,0.7);
+    padding: 3vw;
+    border-radius: 5vw;
+    border: 1vw solid black;
+    margin: 2vw auto;
+    color: #3f0017;
+    width: 90%;
 }
+
 form{
     margin: 0 auto;
 }
 input{
-    width: 80vw;
+    width: 90%;
     background-color: rgba(255,255,255,0);
     border: none;
     border-bottom: 1px solid white;
-    color: white;
+    color: #3f0017;
     font-size: 4vw;
     font-family: 'Encode Sans Condensed', sans-serif;
 }
 input::placeholder{
-    color: rgb(179, 179, 179);
+    color: #7a3c53;
 }
 #required{
     background-color: burlywood;
@@ -129,11 +140,15 @@ button{
     h4{
         font-size: 4.5vw;
     }
-    .description{
+    #description{
         font-size: 3vw;
     }
     .cta p{
         font-size: 3vw;
+        line-height: 1.2em;
+    }
+    input{
+        font-size: 2.5vw;
     }
     .footer{
         font-size: 3vw;

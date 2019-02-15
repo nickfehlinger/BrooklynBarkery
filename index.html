@@ -12,8 +12,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
-    <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Permanent+Marker|Staatliches" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
     <title>Brooklyn Barkery</title>
 </head>
 <body>
@@ -36,40 +36,37 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-8">
-                <p class="description">
-                    Handmade with love in Brooklyn, NY, Brooklyn Barkery dog treats are crafted from human-quality ingredients but designed with your best furry friend in mind. Starting with spent brewers grains we provide a high-fiber, protien-rich base on which to layer delectible flavors like peanut butter and blueberry for your canine companions.
+            <div class="col">
+                <p id="description">
+                        <img src="images/BBBag.png" alt="Brooklyn Barkery Bag" id="bag">
+                    Handmade with love in Brooklyn, NY, Brooklyn Barkery dog treats are crafted from human-quality ingredients but designed with your best furry friend in mind. Starting with spent brewers grains we provide a high-fiber, protein-rich base on which to layer delectible flavors like peanut butter and blueberry for your canine companions. With all-natural, simple ingredients and a taste to howl for, Brooklyn Barkery dog treats are a healthy, delicious snack that you'll feel good about giving them, and they'll keep coming back for.
                 </p>
-            </div>
-            <div class="col-4">
-                <img src="images/BBBag.png" alt="Brooklyn Barkery Bag" id="bag">
-                <p id="disclaimer">*simulated image</p>
             </div>
         </div>
         <div class="row cta">
-            <div class="col-sm">
+            <div class="col-12">
                 <p>
                     Brooklyn Barkery will be launching its initial product line in the spring of 2019! For up-to-date information and exclusive coupons enter your information below:
                 </p>
             </div>
-        </div>
-        <div class="row cta">
-            <form id="contact">
-                <div>
-                    <input type="text" name="firstName" placeholder="Scooby">
-                </div>
-                <div>
-                    <input type="text" name="lastName" placeholder="Doo">
-                </div>
-                <div>
-                    <p id="required">please enter your email address</p>
-                    <input type="text" name="email" placeholder="scoobysnacks@mysterymachine.com" id="email" required>
-                </div>    
-                <div>
-                    <button type="submit" id="submitForm">Submit</button>
-                </div>    
-            </form>
-            <p id="thankYou"><span class="check">√</span> Thank you! We look forward to keeping you up to date with our progress!</p>
+            <div class="col-12">
+                <form id="contact">
+                    <div>
+                        <input type="text" name="firstName" placeholder="Scooby">
+                    </div>
+                    <div>
+                        <input type="text" name="lastName" placeholder="Doo">
+                    </div>
+                    <div>
+                        <p id="required">please enter your email address</p>
+                        <input type="text" name="email" placeholder="scoobysnacks@mysterymachine.com" id="email" required>
+                    </div>    
+                    <div>
+                        <button type="submit" id="submitForm">Submit</button>
+                    </div>    
+                </form>
+                <p id="thankYou"><span class="check">√</span> Thank you! We look forward to keeping you up to date with our progress!</p>
+            </div>
         </div>
     </div>
     <div class="container-fluid footer">
