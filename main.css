@@ -7,7 +7,7 @@ body{
     padding-bottom: 10px;
 }
 .header{
-    height: 95vh;
+    min-height: 95vh;
     background-image: url(images/APDT-Hero-2.jpg);
     background-size: cover;
     background-position-x: 80%;
@@ -32,6 +32,9 @@ h2{
 h3{
     color: #3f0017;
     font-size: 7vw;
+}
+.social .icon{
+    width: 100%;
 }
 .main{
     color: white;
@@ -140,6 +143,9 @@ button{
     }
     h3{
         font-size: 3vw;
+    }
+    .social .icon{
+        width: 50%;
     }
     h4{
         font-size: 4.5vw;
